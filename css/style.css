@@ -145,6 +145,7 @@ header .banner h1{
     text-align: center;
     background-color: white;
     padding: 50px 0px;
+    border-radius: 15px;
 }
 .focus p{
     margin: 20px 0px;
@@ -188,4 +189,29 @@ header .banner h1{
     font-size: 14px;
     color: #484848;
     border-radius: 10px;
+}
+
+/*footer css*/
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 100px 0px;
+}
+footer h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+footer p{
+    padding: 10px 420px;
+    color: #484848;
+    margin-bottom: 15px;
+}
+footer .footer-nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #484848;
+}
+footer .footer-nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
