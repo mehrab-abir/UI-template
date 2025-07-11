@@ -157,3 +157,35 @@ header .banner h1{
 .focus img{
     border-radius: 40px;
 }
+
+/*Message section*/
+.message{
+    text-align: center;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0px;
+    gap: 0;
+}
+.message h1{
+    font-size: 65px;
+    text-align: left;
+}
+.message form{
+    text-align: left;
+    width: 50%;
+}
+.message form .input-field{
+    margin-bottom: 10px;
+}
+.message form input, .message form textarea{
+    padding: 20px;
+    width: 90%;
+    border: none;
+    outline:none;
+    font-size: 14px;
+    color: #484848;
+    border-radius: 10px;
+}
