@@ -47,7 +47,7 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 35px 0px;
 }
 header nav .logo{
     font-weight: 900;
@@ -189,6 +189,9 @@ header .banner h1{
     font-size: 14px;
     color: #484848;
     border-radius: 10px;
+}
+.message .message-btn{
+    width: 95%;
 }
 
 /*footer css*/
